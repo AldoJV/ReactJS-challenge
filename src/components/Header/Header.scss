@@ -1,0 +1,47 @@
+.route--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar{
+	border-radius: 0;
+	padding: 0 30px;
+	@media only screen and(max-width: 780px){
+		padding: 0 15px;
+	}
+	//height: 100px;
+	background: black;
+	color:white;
+	img{
+		width: 90%;
+	}
+}
+.navbar-header{
+	height:90px;
+}
+.navbar-collapse, button.navbar-toggle{
+	margin-top:20px;
+}
+.navbar-inverse .navbar-nav>li>a, input{
+	font-family: 'Proxima Nova B' !important;
+	color:white;
+}
+.navbar-right{
+	@media only screen and(max-width: 900px){
+		width: 180px;
+	}
+}
+.form-control,.input-group-addon{
+	border:none;
+	border-radius:0;
+	background: #4c4c4c;
+	color:white;
+	button{
+		background: transparent;
+		border:none;
+		color: white;
+		text-decoration:none;
+		-webkit-appearance: none;
+		-moz-appearance:    none;
+		appearance:         none;
+	}
+}

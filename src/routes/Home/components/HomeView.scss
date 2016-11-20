@@ -1,0 +1,52 @@
+h1{
+	font-family: 'Proxima Nova EB';
+	font-size: 40px;
+}
+h4,h5{
+	font-family: 'Proxima Nova B';
+
+}
+.slick-slide{
+	img{
+		display: inline-block;
+		width: 40%;
+		@media only screen and(max-width: 480px){
+			width: 60%;
+		}
+		opacity: .7;
+	}
+}
+.slick-center{
+	img{
+		opacity: 1;
+	}
+}
+.boards{
+	margin-top:15%;
+}
+.arrow-left,.arrow-right{
+	position:absolute;
+	z-index:5;
+	img{
+		margin-top:70px;
+		height: 15vw;
+		opacity:1;
+		@media only screen and(max-width: 640px){
+			margin-top:35px;
+		}
+	}
+}
+.arrow-left{
+	left: 20px;
+	img {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+	}
+}
+.arrow-right{
+	right: 20px;
+}
