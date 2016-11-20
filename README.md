@@ -9,6 +9,7 @@
 
 	```
 	npm install
+	```
 
 2. Run it
 
